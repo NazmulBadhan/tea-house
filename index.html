@@ -11,7 +11,7 @@
      <!-- font awesome cdn -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
+<body class="manrope-normal">
     <header>
         <!-- banner section -->
          <div class="banner flex flex-col md:flex-row justify-between min-h-[200px] max-w-[1240px] mx-auto">
@@ -86,7 +86,7 @@
         </section>
         <!-- reviews section -->
          <section class="max-w-[1240px] mx-auto mt-[130px] rounded-xl h-[1000px] md:h-[600px] flex flex-col md:flex-row gap-4 p-5 bg-gradient-to-r from-[#ff8938] to-[#ff0000]">
-            <div class="left h-full md:w-1/2 text-white pl-[20px] md:pl-[70px] py-[40px] md:py-[155px]">
+            <div class="left h-full md:w-1/2 text-white pl-[20px] md:pl-[70px] py-[40px] md:py-[155px] bg-[url(./images/bg_cup.png)] bg-no-repeat bg-bottom">
                 <h2 class="text-5xl font-extrabold">Meet Our Super <br> Clients</h2>
                 <p class="font-medium mt-[20px] mb-[30px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomized words which don't look even slightly believable.</p>
                 <button class="w-[140px] h-[56px] rounded-lg text-xl font-bold bg-white text-[#FF0000]">Show All</button>
@@ -128,5 +128,50 @@
             </div>
          </section>
     </main>
+    <footer class="mt-[130px] bg-[#e6a6231a]">
+        <div class="max-w-[1240px] mx-auto py-[130px]">
+            <div class="flex justify-between">
+            <img src="./images/cup.png" alt="">
+            <div class="flex items-center gap-3 md:gap-10">
+                <p class="text-xl font-medium">Ready to get started?</p>
+                <button class="bg-gradient-to-r from-[#ff8938] to-[#ff0000] rounded-lg w-[164px] h-[56px] text-white text-xl font-bold">Get Started</button>
+            </div>
+            </div>
+            <div class="flex flex-col text-center md:text-left md:flex-row justify-between mt-[100px]">
+                <div class="mb-6">
+                    <h4 class="text-xl font-semibold">Quick Links</h4>
+                    <p class="mt-5"><a href="">Home</a></p>
+                    <p class="mt-5"><a href="">About Us</a></p>
+                    <p class="mt-5"><a href="">Insurance</a></p>
+                    <p class="mt-5"><a href="">Privacy Policy</a></p>
+                </div>
+                <div class="mb-6">
+                    <h4 class="text-xl font-semibold">Our Services</h4>
+                    <p class="mt-5"><a href="">Life Insurance</a></p>
+                    <p class="mt-5"><a href="">Car Insurance</a></p>
+                    <p class="mt-5"><a href="">Health Insurance</a></p>
+                    <p class="mt-5"><a href="">House Insurance</a></p>
+                </div>
+                <div class="mb-6">
+                    <h4 class="text-xl font-semibold">Help</h4>
+                    <p class="mt-5"><a href="">FAQs</a></p>
+                    <p class="mt-5"><a href="">Contact Us</a></p>
+                </div>
+                <div>
+                    <h4 class="text-2xl font-semibold">Subscribe to our <br> newsletter</h4>
+                    <input type="text" placeholder="Email Address" class="border-b-1 outline-none pb-2 mt-10 mb-12">
+                    <button class="rounded-full h-8 w-8 text-center bg-gradient-to-r from-[#ff8938] to-[#ff0000] text-white"><i class="fa-solid fa-angle-right"></i></button>
+                    <div>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-square-instagram"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-[60px]">
+                <p class="text-center">© 2027 UIDesign.to - All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
